@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://df3bur4e8qus5"]
 
-[ext_resource type="Script" uid="uid://c0nik1t6f7r3a" path="res://pipe_set.gd" id="1_5bmai"]
+[ext_resource type="Script" uid="uid://c0nik1t6f7r3a" path="res://Scripts/pipe_set.gd" id="1_5bmai"]
 [ext_resource type="Script" uid="uid://cgbrvf7aqdb44" path="res://Scripts/DeathPlane.gd" id="2_s7i4u"]
 [ext_resource type="Texture2D" uid="uid://bygtouogdl1f0" path="res://Assets/Sprites/pipe.webp" id="3_uwn2t"]
 [ext_resource type="Script" uid="uid://bpwo6fjndt615" path="res://Scripts/score_zone.gd" id="4_s7i4u"]
