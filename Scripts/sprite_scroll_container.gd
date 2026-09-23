@@ -1,5 +1,5 @@
-#Responsible for moving two floors (its children) to create the illusion of movement
-class_name FloorContainer
+#Responsible for moving two sprites (its children) to create the illusion of movement
+class_name SpriteScrollContainer
 extends Node2D
 var floors
 
