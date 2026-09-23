@@ -1,0 +1,22 @@
+[gd_resource type="Theme" format=3 uid="uid://c8l6tusw4d5j8"]
+
+[ext_resource type="FontFile" path="res://UI/Sprites/OpenSans-Bold.ttf" id="1_pbob0"]
+[ext_resource type="StyleBox" path="res://UI/Themes/ButtonHover.tres" id="2_n6psp"]
+[ext_resource type="StyleBox" path="res://UI/Themes/ButtonNormal.tres" id="3_55xe3"]
+[ext_resource type="StyleBox" path="res://UI/Themes/ButtonPressed.tres" id="4_d755c"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_rcr7t"]
+
+[resource]
+Button/colors/font_disabled_color = Color(0.87451, 0.87451, 0.87451, 1)
+Button/colors/font_focus_color = Color(0.87451, 0.87451, 0.87451, 1)
+Button/colors/font_hover_color = Color(0.811765, 0.811765, 0.811765, 1)
+Button/colors/font_hover_pressed_color = Color(0.678431, 0.678431, 0.678431, 1)
+Button/colors/font_pressed_color = Color(0.678431, 0.678431, 0.678431, 1)
+Button/font_sizes/font_size = 100
+Button/fonts/font = ExtResource("1_pbob0")
+Button/styles/disabled = ExtResource("3_55xe3")
+Button/styles/focus = SubResource("StyleBoxEmpty_rcr7t")
+Button/styles/hover = ExtResource("2_n6psp")
+Button/styles/normal = ExtResource("3_55xe3")
+Button/styles/pressed = ExtResource("4_d755c")

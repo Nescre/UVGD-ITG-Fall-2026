@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://b637s7ffdumgr"]
+
+[ext_resource type="FontFile" uid="uid://c7d1pqjt16ti2" path="res://Assets/Themes/OpenSans-Bold.ttf" id="1_c4pjx"]
+[ext_resource type="Script" uid="uid://dc1igojeykqhy" path="res://Scripts/score.gd" id="1_eqrdx"]
+[ext_resource type="StyleBox" uid="uid://bflitf0kaebb2" path="res://Assets/Themes/OuterBox.tres" id="2_k12a1"]
+[ext_resource type="StyleBox" uid="uid://b06j2v8aeocst" path="res://Assets/Themes/InnerBox.tres" id="3_pnoef"]
+
+[node name="Score" type="Control" unique_id=1629720980]
+layout_mode = 3
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+grow_horizontal = 2
+script = ExtResource("1_eqrdx")
+
+[node name="OuterBox" type="PanelContainer" parent="." unique_id=533568650]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -106.0
+offset_top = 30.0
+offset_right = 106.0
+offset_bottom = 147.0
+grow_horizontal = 2
+theme_override_styles/panel = ExtResource("2_k12a1")
+
+[node name="InnerBox" type="PanelContainer" parent="OuterBox" unique_id=574965350]
+layout_mode = 2
+theme_override_styles/panel = ExtResource("3_pnoef")
+
+[node name="Label" type="Label" parent="OuterBox/InnerBox" unique_id=1734290227]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_c4pjx")
+theme_override_font_sizes/font_size = 50
+text = "0"
+horizontal_alignment = 1

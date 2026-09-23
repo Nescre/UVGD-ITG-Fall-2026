@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://dai7nsioabiq2"]
+
+[ext_resource type="Script" uid="uid://c16ygru4ch7lm" path="res://Scripts/black_screen.gd" id="1_ktynt"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_ehyus"]
+
+[node name="BlackScreen" type="TextureRect" unique_id=1008383322]
+modulate = Color(0, 0, 0, 0)
+z_index = 10
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -250.0
+offset_top = -106.0
+offset_right = -250.0
+offset_bottom = -106.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.25, 1.25)
+texture = SubResource("CanvasTexture_ehyus")
+script = ExtResource("1_ktynt")
