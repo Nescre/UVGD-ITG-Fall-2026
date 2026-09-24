@@ -40,7 +40,7 @@ script = ExtResource("2_6bp64")
 
 [node name="Sprite2D" type="Sprite2D" parent="FloorContainer/Floor1" unique_id=1290486852]
 position = Vector2(-960, 65.00009)
-scale = Vector2(5.3333335, 2.5944448)
+scale = Vector2(5.693333, 2.5944448)
 texture = ExtResource("2_bo1nx")
 
 [node name="Hitbox" type="CollisionShape2D" parent="FloorContainer/Floor1" unique_id=1212895070]
@@ -53,7 +53,7 @@ script = ExtResource("2_6bp64")
 
 [node name="Sprite2D" type="Sprite2D" parent="FloorContainer/Floor2" unique_id=1743611292]
 position = Vector2(-960, 65.00009)
-scale = Vector2(5.3333335, 2.5944448)
+scale = Vector2(5.693333, 2.5944448)
 texture = ExtResource("2_bo1nx")
 
 [node name="Hitbox" type="CollisionShape2D" parent="FloorContainer/Floor2" unique_id=1957788285]

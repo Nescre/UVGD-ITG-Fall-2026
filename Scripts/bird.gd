@@ -13,7 +13,7 @@ func _physics_process(delta: float) -> void:
 			if Input.is_action_just_pressed("Jump"):
 				jump()
 				Global.start_game.emit()
-			position.y += 5*sin(Time.get_ticks_msec()/50)
+			position.y += 5*sin(Time.get_ticks_msec()/100)
 				
 		Global.States.Playing:
 			if not is_on_floor():

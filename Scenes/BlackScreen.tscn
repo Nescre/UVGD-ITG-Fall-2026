@@ -5,7 +5,7 @@
 [sub_resource type="CanvasTexture" id="CanvasTexture_ehyus"]
 
 [node name="BlackScreen" type="TextureRect" unique_id=1008383322]
-modulate = Color(0, 0, 0, 0)
+modulate = Color(0, 0, 0, 1)
 z_index = 10
 anchors_preset = 15
 anchor_right = 1.0
